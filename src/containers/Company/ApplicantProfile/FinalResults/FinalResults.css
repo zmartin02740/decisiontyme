@@ -1,0 +1,71 @@
+.MCButtonStyle {
+  color: blue;
+  text-decoration: underline;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.questionStyle {
+  background-color: #cfcfd1;
+  margin: 10px auto;
+  width: 80%;
+  box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.75);
+  padding: 15px;
+}
+
+.ORquestionstyle {
+  border-bottom: solid purple 2px;
+  padding: 10px;
+  width: 90%;
+}
+
+.MCquestionStyle {
+  padding: 15px;
+  border-bottom: solid purple 2px;
+  width: 90%;
+}
+
+.resultsheader {
+  width: 70%;
+  margin: 0 auto;
+  padding: 15px;
+  text-align: center;
+}
+
+.questionheader {
+  color: purple;
+}
+
+.MCquestionlayout {
+  background-color: #cfcfd1;
+  margin: 10px auto;
+  width: 80%;
+  box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.75);
+  padding: 15px;
+}
+
+.namedisplay {
+  padding: 20px 0;
+}
+
+.timerdisplay {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  .namedisplay {
+    font-size: 20px;
+  }
+
+  .timerdisplay {
+    font-size: 19px;
+  }
+
+  .ORquestionstyle {
+    width: 100%;
+  }
+
+  .MCquestionStyle {
+    width: 100%;
+  }
+}

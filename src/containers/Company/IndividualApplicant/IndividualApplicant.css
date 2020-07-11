@@ -1,0 +1,62 @@
+/* .Applicant {
+  background-color: #dddddd;
+  padding: 5px;
+  width: 35%;
+  clear: both;
+  margin: 10px 0px 20px 10px;
+  display: grid;
+} */
+
+.Applicant {
+  display: grid;
+  float: left;
+  margin: 10px 10px;
+  background-color: #d6d6d6;
+  padding: 40px;
+  box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.75);
+}
+
+.Applicant:hover {
+  background-color: aliceblue;
+}
+
+.DeleteB:hover {
+  background-color: red;
+}
+
+.CancelB:hover {
+  background-color: rgb(176, 176, 176);
+}
+
+.SaveB:hover {
+  background-color: rgb(119, 112, 252);
+}
+
+.EditB:hover {
+  background-color: yellow;
+}
+
+.name {
+  font-size: 17px;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(80, 6, 80);
+}
+
+.align {
+  text-align: center;
+}
+
+.padding {
+  padding: 5px 0px;
+}
+
+.email {
+  font-size: 10px;
+}
+
+@media only screen and (min-width: 680px) {
+  .Applicant {
+    width: 25%;
+  }
+}

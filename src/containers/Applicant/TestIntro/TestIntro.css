@@ -1,0 +1,20 @@
+.intro {
+  background-color: #dddddd;
+  width: 80%;
+  margin: 30px auto;
+  padding: 25px;
+  box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.75);
+}
+
+.startbtn {
+  background-color: purple;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.75);
+}
+
+.btnsupport {
+  text-align: center;
+}

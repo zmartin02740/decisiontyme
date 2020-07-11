@@ -1,0 +1,40 @@
+.column1 {
+  float: left;
+  width: 25%;
+  background-color: #ebc0f9;
+  font-size: 12px;
+  bottom: 0px;
+  position: relative;
+  padding: 20px 10px 700px 30px;
+  border-right: solid #5e007c 3px;
+  box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.75);
+}
+
+.column2 {
+  padding: 20px;
+  width: 69%;
+}
+
+.jobs {
+  color: purple;
+  padding: 10px 5px;
+  font-weight: 700;
+}
+
+.jobnavbar {
+  padding-top: 30px;
+}
+
+.joblink {
+  float: right;
+}
+
+.jobdescription {
+  padding: 20px 0px 20px 0px;
+  color: purple;
+  text-align: center;
+}
+
+.jobeditor {
+  z-index: 0;
+}

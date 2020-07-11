@@ -1,0 +1,41 @@
+.home {
+  color: #154212;
+  background: linear-gradient(110deg, #d243e8 40%, #9a0faf 60%);
+  height: 300px;
+  width: 100%;
+}
+
+.landingheader {
+  color: #154212;
+  font-size: 60px;
+  padding-top: 80px;
+}
+
+.complogin {
+  float: right;
+  padding: 10px;
+  color: white;
+  text-decoration: underline;
+}
+
+.complogo {
+  color: purple;
+  float: left;
+  padding: 15px;
+}
+
+.landingpageblurbs {
+  color: purple;
+  padding: 20px;
+  font-size: 20px;
+}
+
+@media (max-width: 600px) {
+  .complogo {
+    font-size: 15px;
+  }
+
+  .landingheader {
+    font-size: 50px;
+  }
+}

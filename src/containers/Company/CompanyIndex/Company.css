@@ -1,0 +1,39 @@
+.Company {
+  padding: 0px 10px;
+  height: 100%;
+}
+
+.CompanyName {
+  padding: 30px 0px 40px 30px;
+  color: purple;
+}
+
+.createBtn {
+  margin: 0px 0px 20px 100px;
+  padding: 10px;
+  background-color: purple;
+  color: white;
+}
+
+.applicantList {
+  color: purple;
+  border-top: solid purple 2px;
+  padding-top: 10px;
+  width: 1100px;
+  margin: 10px auto;
+}
+
+.CompanyApplicantList {
+  margin: 10px 50px;
+}
+
+.search {
+  padding-bottom: 30px;
+}
+
+@media only screen and (min-width: 480px) {
+  .CompanyApplicantList {
+    margin: 20px 100px;
+    width: 100%;
+  }
+}

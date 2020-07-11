@@ -1,0 +1,15 @@
+.submittedapplication {
+  background-color: #cfcfd1;
+  width: 90%;
+  margin: 10px auto;
+  padding: 15px;
+  box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.75);
+}
+
+.resultsnav {
+  text-align: center;
+}
+
+.resultsheaderapp {
+  margin: 15px;
+}

@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topcompanynav {
+  overflow: hidden;
+  background-color: #dddddd;
+}
+
+.right-nav:hover {
+  color: black;
+}
+
+.topcompanynav a {
+  float: left;
+  display: block;
+  color: #6e2d84;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 17px;
+  border-right: solid purple 2px;
+}
+
+.topcompanynav a:hover {
+  background-color: lightgreen;
+  color: darkgreen;
+}
+
+.topcompanynav a:focus {
+  background-color: lightgreen;
+}
+
+@media only screen and (max-width: 500px) {
+  .topcompanynav a {
+    border-left: none;
+    margin-right: 30px;
+  }
+}

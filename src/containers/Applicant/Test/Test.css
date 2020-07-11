@@ -1,0 +1,40 @@
+.testform {
+  background-color: #dddddd;
+  width: 80%;
+  margin: 0px auto;
+  box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.75);
+  padding: 30px;
+}
+
+.testformbtn {
+  background-color: purple;
+  text-decoration: none;
+  color: white;
+  padding: 15px 80px;
+  cursor: pointer;
+  box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.75);
+}
+
+.testformbtnarea {
+  padding: 40px;
+  text-align: center;
+}
+
+.timer {
+  color: red;
+  border: solid purple 8px;
+  padding: 10px;
+  width: 30%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #b600ff;
+  font-weight: 900;
+  box-shadow: 6px 6px 3px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 550px) {
+  .timer {
+    width: 80%;
+  }
+}

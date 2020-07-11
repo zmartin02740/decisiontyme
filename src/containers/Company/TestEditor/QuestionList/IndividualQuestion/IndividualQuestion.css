@@ -1,0 +1,14 @@
+.indyquestion {
+  padding-bottom: 20px;
+  border: solid #cccdce 2px;
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px 0px 10px 20px;
+  background-color: #cccdce;
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.75);
+}
+
+.actionbtn {
+  margin: 5px;
+  text-align: center;
+}

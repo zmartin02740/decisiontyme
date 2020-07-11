@@ -1,0 +1,40 @@
+{
+  "name": "decision-time",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "ajv": "^6.5.2",
+    "ajv-keywords": "^3.2.0",
+    "bcrypt": "^3.0.0",
+    "cors": "^2.8.4",
+    "dateformat": "^3.0.3",
+    "deep-extend": "^0.5.1",
+    "dotenv": "^6.0.0",
+    "express-jwt": "^5.3.1",
+    "hat": "0.0.3",
+    "lodash": "^4.17.10",
+    "mongodb": "^3.1.0-beta4",
+    "path": "^0.12.7",
+    "prop-types": "^15.6.2",
+    "ramda": "^0.25.0",
+    "react": "^16.3.2",
+    "react-copy-to-clipboard": "^5.0.1",
+    "react-dom": "^16.3.2",
+    "react-pdf": "^3.0.5",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "react-toggle": "^4.0.2",
+    "shortid": "^2.2.8",
+    "uniqid": "^4.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "serve": "nodemon --ignore src --exec node server/index.js"
+  },
+  "devDependencies": {},
+  "proxy": "http://localhost:4567"
+}
