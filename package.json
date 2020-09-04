@@ -14,7 +14,7 @@
     "express-jwt": "^5.3.1",
     "hat": "0.0.3",
     "lodash": "^4.17.10",
-    "mongodb": "^3.1.0-beta4",
+    "mongodb": "^3.1.13",
     "path": "^0.12.7",
     "prop-types": "^15.6.2",
     "ramda": "^0.25.0",
