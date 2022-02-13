@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@sendgrid/mail": "^6.3.1",
-    "ajv": "^6.5.2",
+    "ajv": "^6.12.3",
     "ajv-keywords": "^3.2.0",
     "bcrypt": "^3.0.0",
     "cors": "^2.8.4",
